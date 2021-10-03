@@ -6,7 +6,7 @@ Steps to replicate the issue:
 
 1. View code in MainActivity, then using icon (-) or shortcut (control-minus), fold code on the following lines:
 
-  a. 30 ("liveData1.observe...")
+    a. 30 ("liveData1.observe...")
 
   b. 34 ("liveData2.observe...")
 
