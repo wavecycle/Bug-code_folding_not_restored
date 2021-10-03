@@ -8,11 +8,11 @@ Steps to replicate the issue:
 
     a. 30 ("liveData1.observe...")
 
-  b. 34 ("liveData2.observe...")
+    b. 34 ("liveData2.observe...")
 
-  c. 39 ("liveData3.observe...")
+    c. 39 ("liveData3.observe...")
 
-  d. 45 ("fun printToLog()...")
+    d. 45 ("fun printToLog()...")
 
 2. Close IDE and restart. View MainActivity code and all the previously folded lines have expanded themselves.
 
