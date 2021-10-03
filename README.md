@@ -5,9 +5,13 @@ NB: The behaviour described below works perfectly in IntelliJ IDEA, using the sa
 Steps to replicate the issue:
 
 1. View code in MainActivity, then using icon (-) or shortcut (control-minus), fold code on the following lines:
+
   a. 30 ("liveData1.observe...")
+
   b. 34 ("liveData2.observe...")
+
   c. 39 ("liveData3.observe...")
+
   d. 45 ("fun printToLog()...")
 
 2. Close IDE and restart. View MainActivity code and all the previously folded lines have expanded themselves.
